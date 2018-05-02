@@ -1,0 +1,131 @@
+body {
+  background: #F1F3FA;
+}
+
+.error-invalid, .error-deactivated {
+  display: none;
+}
+
+.well {
+  background: #ffffff !important;
+  border: 0 !important;
+} 
+
+.form-control {
+  border: 1px solid #f0f4f7 !important;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 6px 15px !important;
+  margin-right: 5px !important;
+}
+
+
+/* Jumbotron */
+html, body {
+  height: 100%;
+}
+
+.container{
+  width:1025px;
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  /*background-color: gold;*/
+
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+}
+
+@media (max-width: 768px) {
+  .vertical-center:before {
+    /* height: auto; */
+    display: none;
+  }
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+body {
+    background: -webkit-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -moz-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -ms-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -o-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    font-family: 'Open Sans', sans-serif!important;
+}
+.well{
+    background-color:#fff!important;
+    border-radius:0!important;
+    border:none!important;
+}
+
+.well.login-box {
+    width:300px;
+    margin:0 auto;
+    display:none;
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:16px;
+  
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+.well.welcome-text{
+    font-size:21px;
+}
+
+.notification{
+    position:fixed;
+    top: 20px;
+    right:0;
+    background-color:#FF4136;
+    padding: 20px;
+    color: #fff;
+    font-size:21px;
+    display:none;
+}
+.notification-success{
+  background-color:#3D9970;
+}
+
+.notification-show{
+    display:block!important;
+}
+
+.logged-in{
+  display:none;
+}
+.logged-in h1{
+  margin:0;
+  font-weight:300;
+}*/
